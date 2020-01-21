@@ -1,0 +1,19 @@
+.content {
+    width: 75%;
+}
+.content .wrapper-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content .wrapper-product .product-item {
+    width: 32%;
+    height: 500px;
+    margin: 0 0 15px 0;
+}
+.content .wrapper-product .product-item .img img{
+    width: 100%;
+}
+.content .wrapper-product .product-item .product-description{
+    width: 90%;
+}
