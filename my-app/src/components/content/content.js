@@ -8,7 +8,7 @@ const Content = () => {
             <div className="container">
                 <div className="wrapper-product">
                     <div className="product-item">
-                        <div className="img">
+                        <div className="img-main-photo">
                             <img src="../img/71epjBy+bNL._SX700_.jpg" alt=""/>
                         </div>
                         <div className="product-description">
@@ -17,7 +17,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="product-item">
-                        <div className="img">
+                        <div className="img-main-photo">
                             <img src="../img/81kH6yCcnWL._SX700_.jpg" alt=""/>
                         </div>
                         <div className="product-description">
@@ -26,7 +26,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="product-item">
-                        <div className="img">
+                        <div className="img-main-photo">
                             <img src="../img/81xFNXOeMfL._SX700_.jpg" alt=""/>
                         </div>
                         <div className="product-description">
@@ -35,7 +35,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="product-item">
-                        <div className="img">
+                        <div className="img-main-photo">
                             <img src="../img/71epjBy+bNL._SX700_.jpg" alt=""/>
                         </div>
                         <div className="product-description">
@@ -44,7 +44,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="product-item">
-                        <div className="img">
+                        <div className="img-main-photo">
                             <img src="../img/81kH6yCcnWL._SX700_.jpg" alt=""/>
                         </div>
                         <div className="product-description">
@@ -53,7 +53,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="product-item">
-                        <div className="img">
+                        <div className="img-main-photo">
                             <img src="../img/81xFNXOeMfL._SX700_.jpg" alt=""/>
                         </div>
                         <div className="product-description">

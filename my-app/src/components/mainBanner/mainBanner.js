@@ -14,8 +14,6 @@ const MainBanner = () => {
             </div>
         </div>
     )
-
-
 };
 
 export default MainBanner

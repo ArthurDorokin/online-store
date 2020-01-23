@@ -6,14 +6,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.content .wrapper-product .product-item {
+.content .product-item {
     width: 32%;
     height: 500px;
     margin: 0 0 15px 0;
 }
-.content .wrapper-product .product-item .img img{
+.content .product-item .img-main-photo img{
     width: 100%;
 }
-.content .wrapper-product .product-item .product-description{
+.content .product-description{
     width: 90%;
 }
