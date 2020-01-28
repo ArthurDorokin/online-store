@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './content.css';
 import data_product from '../constants.js';
 
@@ -7,8 +7,7 @@ const elem = data_product.map((item) => {
     return item;
 });
 
-const Content = ({item}) => {
-    const {img, nameListUser, ageListUser, phoneListUser, textUser} = item
+const Content = () => {
     return (
         <div className="content">
             <div className="container">
