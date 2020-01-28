@@ -36,3 +36,5 @@ let data_product = [
         id: 6
     },
 ];
+
+export default data_product
