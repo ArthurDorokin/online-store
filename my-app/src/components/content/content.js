@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import './content.css';
-import data_product from '../constants.js';
+import data from '../constants.js';
 
 
 class Content extends Component {
     render() {
-        const elem = data_product.map((item) => {
+        const elem = data.content.map((item) => {
             return (
                 <div className="product-item" key={item.id}>
                     <div className="img-main-photo">
