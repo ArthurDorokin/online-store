@@ -35,34 +35,7 @@ let data = {
             description: 'Pueraria Mirifica And Study Phyto Estrogens',
             price: '$852.00',
             id: 6
-        }],
-    'footer': [
-        {
-            url: '/About-us',
-            description: 'About us',
-            id: 1
-        },
-        {
-            url: '/Testimonials',
-            description: 'Testimonials',
-            id: 2
-        },
-        {
-            url: '/Contact',
-            description: 'Contact',
-            id: 3
-        },
-        {
-            url: '/Journal',
-            description: 'Journal',
-            id: 4
-        },
-        {
-            url: '/Privacy-Policy',
-            description: 'Privacy Policy',
-            id: 5
-        },
-    ],
+        }]
 
 };
 
