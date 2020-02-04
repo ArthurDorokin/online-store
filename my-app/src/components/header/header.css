@@ -39,7 +39,6 @@
 
 .header .main-navigation-head .list-menu ul {
     margin: 0;
-    display: flex;
     list-style-type: none;
 }
 
@@ -88,9 +87,6 @@
     right: -3px;
 }
 
-.header .main-navigation-head .list-menu ul li:hover p span {
-    background: #FF5E1B;
-}
 
 .header .main-navigation-head .control-order ul {
     margin: 0;
@@ -120,9 +116,14 @@
     align-items: center;
     justify-content: space-between;
     width: 400px;
+    position: relative;
 }
 .main-navigation-head .list-menu p{
      position: relative;
+    cursor: pointer;
+ }
+.main-navigation-head .list-menu p:hover{
+    color: #FF5E1B;
  }
 .main-navigation-head .list-menu p::after{
     position: absolute;
@@ -130,7 +131,26 @@
     background: url("/img/next.svg");
     width: 10px;
     height: 10px;
+    transform: rotate(90deg);
+    right: -16px;
+    top: 5px;
+}
+.main-navigation-head .list-menu .my-drop-down-menu {
+    padding: 15px 20px;
 }
 .main-navigation-head .list-menu .my-drop-down-menu .child {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    width: 130px;
+    border: 1px solid #33333a;
+    top: 80px;
+    background: #ffffff;
+}
+.main-navigation-head .list-menu .my-drop-down-menu:hover .child {
+    display: flex;
+}
+.main-navigation-head .list-menu .child li a:hover {
+    color: #FF5E1B;
 }
