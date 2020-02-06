@@ -41,9 +41,12 @@
     list-style: none;
     text-decoration: none;
 }
+
+/*to many selector */
 .footer .container .block-right .subscribe form {
     display: flex;
 }
+
 .footer .container .block-right .subscribe form input{
     width: 360px;
     height: 40px;

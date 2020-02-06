@@ -1,3 +1,5 @@
+// what means in name "data", data for what? change to more readable
+// why let? Will it mutate in future?
 let data = {
     'content': [
         {

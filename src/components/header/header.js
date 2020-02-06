@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './header.css';
 
+// todo: same as in footer
 class Header extends Component {
     render() {
 

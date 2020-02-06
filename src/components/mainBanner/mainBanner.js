@@ -1,6 +1,7 @@
 import React from 'react';
 import './mainBanner.css';
 
+// make shorter
 const MainBanner = () => {
 
     return (

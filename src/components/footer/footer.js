@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import './footer.css';
 
+// format code
+// check on redundant spaces
+// you don't use life cycle methods; change component on stateless
 class Footer extends Component {
 
     render() {
 
+        // move to constants
         const footerList = {
             "Categories": ["About us", "Testimonials", "Contact", "Journal", "Privacy Policy"],
             "Partners": ["Support", "Shipping & Returns", "Size Guide", "Product Care"],

@@ -1,6 +1,7 @@
 import React from 'react';
 import './sortPanel.css';
 
+// make shorter
 const SortPanel = () => {
 
     return (
@@ -15,6 +16,7 @@ const SortPanel = () => {
                 <div className="sort">
                     <p>Sort by</p>
                     <select className="select">
+                        {/*move items to constants and use .map method*/}
                         <option>PRICE</option>
                         <option>PRICE 2</option>
                         <option>PRICE 3</option>

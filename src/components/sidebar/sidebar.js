@@ -1,6 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 
+// make shorter
 const Sidebar = () => {
 
     return (
@@ -18,12 +19,14 @@ const Sidebar = () => {
                     <ul>
                         <li className="list-item">Apparels
                             <ul className="apparels submenu one">
+                                {/* move items to constants and use .map */}
                                 <li>Pants</li>
                                 <li>Jumpsuits</li>
                                 <li>Shorts</li>
                                 <li>Tops</li>
                             </ul>
                         </li>
+                        {/* move items to constants and use .map */}
                         <li className="list-item">Accessories</li>
                         <li className="list-item">Houseware</li>
                         <li className="list-item">Others</li>
