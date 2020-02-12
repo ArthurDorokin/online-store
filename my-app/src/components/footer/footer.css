@@ -20,7 +20,7 @@
     display: flex;
 }
 .footer .container ul{
-   padding: 0;
+    padding: 0;
     margin: 0;
 }
 .footer .container h3{
@@ -41,9 +41,12 @@
     list-style: none;
     text-decoration: none;
 }
+
+/*to many selector */
 .footer .container .block-right .subscribe form {
     display: flex;
 }
+
 .footer .container .block-right .subscribe form input{
     width: 360px;
     height: 40px;
