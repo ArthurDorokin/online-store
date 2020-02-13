@@ -1,6 +1,6 @@
 import React from 'react';
 import './content.css';
-import data from '../constants.js';
+import {data} from '../constants.js';
 
 
 const Content = () => {

@@ -50,7 +50,7 @@ const footerList = {
     "Contact us": ["x26A Pagoda St, TANGS", "xSingapore, 058187", "+65 6221 5462"]
 };
 
-export default {
+export {
     data,
     headerList,
     footerList

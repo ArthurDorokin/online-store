@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import footerList from '../constants.js';
+import {footerList} from '../constants.js';
 
 const Footer = () => {
         return (

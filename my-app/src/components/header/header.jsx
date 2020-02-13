@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import headerList from '../constants.js';
+import {headerList} from '../constants.js';
 
 const Header = () => {
     return (
