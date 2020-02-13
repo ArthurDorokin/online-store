@@ -2,7 +2,6 @@ import React from 'react';
 import './sidebar.css';
 
 const Sidebar = () => {
-
     return (
         <div className="sidebar">
             <div className="container">
@@ -34,8 +33,6 @@ const Sidebar = () => {
             </div>
         </div>
     )
-
-
 };
 
 export default Sidebar

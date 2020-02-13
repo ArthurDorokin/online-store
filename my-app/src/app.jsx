@@ -8,18 +8,18 @@ import Footer from './components/footer/index';
 
 
 const App = () => (
-        <div className="app">
-            <div className="container">
-                <Header/>
-                <MainBanner/>
-                <SortPanel/>
-                <div className="main-content">
-                    <Sidebar/>
-                    <Content/>
-                </div>
-                <Footer/>
+    <div className="app">
+        <div className="container">
+            <Header/>
+            <MainBanner/>
+            <SortPanel/>
+            <div className="main-content">
+                <Sidebar/>
+                <Content/>
             </div>
+            <Footer/>
         </div>
-    );
+    </div>
+);
 
 export default App

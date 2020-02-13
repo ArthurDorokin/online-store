@@ -2,7 +2,6 @@ import React from 'react';
 import './sortPanel.css';
 
 const SortPanel = () => {
-
     return (
         <div className="sortPanel">
             <div className="container">
@@ -23,8 +22,6 @@ const SortPanel = () => {
             </div>
         </div>
     )
-
-
 };
 
 export default SortPanel

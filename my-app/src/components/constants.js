@@ -1,4 +1,4 @@
-let data = {
+const data = {
     'content': [
         {
             img: '../img/71epjBy+bNL._SX700_.jpg',
@@ -35,8 +35,25 @@ let data = {
             description: 'Pueraria Mirifica And Study Phyto Estrogens',
             price: '$852.00',
             id: 6
-        }]
+        }],
 
 };
+const headerList = {
+    "Shop": ["плагины", "темы", "хаки"],
+    "Fabric": ["компоненты", "модули"],
+    "Journal": ["компоненты", "модули", "хаки"],
+    "About": ["плагины", "плагины", "темы"]
+};
+const footerList = {
+    "Categories": ["About us", "Testimonials", "Contact", "Journal", "Privacy Policy"],
+    "Partners": ["Support", "Shipping & Returns", "Size Guide", "Product Care"],
+    "Contact us": ["x26A Pagoda St, TANGS", "xSingapore, 058187", "+65 6221 5462"]
+};
 
-export default data;
+export default {
+    data,
+    headerList,
+    footerList
+}
+
+
