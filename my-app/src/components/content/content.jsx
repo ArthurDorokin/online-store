@@ -1,10 +1,10 @@
 import React from 'react';
 import './content.css';
-import {data} from '../constants.js';
+import {contentList} from '../constants.js';
 
 
 const Content = () => {
-        const elem = data.content.map((item) => {
+        const elem = contentList.content.map((item) => {
             return (
                 <div className="product-item" key={item.id}>
                     <div className="img-main-photo">

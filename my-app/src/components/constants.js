@@ -1,4 +1,4 @@
-const data = {
+const contentList = {
     'content': [
         {
             img: '../img/71epjBy+bNL._SX700_.jpg',
@@ -51,7 +51,7 @@ const footerList = {
 };
 
 export {
-    data,
+    contentList,
     headerList,
     footerList
 }
