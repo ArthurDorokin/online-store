@@ -30,23 +30,23 @@
     justify-content: space-between;
 }
 
-.header .main-navigation-head .wrap-l-m {
+.header .wrap-l-m {
     display: flex;
     align-items: center;
     width: 600px;
     justify-content: space-between;
 }
 
-.header .main-navigation-head .list-menu ul {
+.header .list-menu ul {
     margin: 0;
     list-style-type: none;
 }
 
-.header .main-navigation-head .list {
+.header .list {
     position: relative;
 }
 
-.header .main-navigation-head .list-menu ul li a {
+.header .list-menu ul li a {
     padding: 0 15px 0 15px;
     font-family: Proxima Nova;
     font-size: 12px;
@@ -59,17 +59,17 @@
     text-decoration: none;
 }
 
-.header .main-navigation-head .list-menu ul li:hover {
+.header .list-menu ul li:hover {
     color: #FF5E1B;
 }
 
-.header .main-navigation-head .list-menu ul li p {
+.header .list-menu ul li p {
     position: absolute;
     top: 1px;
     right: 7px;
 }
 
-.header .main-navigation-head .list-menu ul li p span:nth-of-type(1) {
+.header .list-menu ul li p span:nth-of-type(1) {
     width: 1px;
     height: 6px;
     background: #33333A;
@@ -78,7 +78,7 @@
     right: 1px;
 }
 
-.header .main-navigation-head .list-menu ul li p span:nth-of-type(2) {
+.header .list-menu ul li p span:nth-of-type(2) {
     width: 1px;
     height: 6px;
     background: #33333A;
@@ -88,13 +88,13 @@
 }
 
 
-.header .main-navigation-head .control-order ul {
+.header .control-order ul {
     margin: 0;
     display: flex;
     list-style-type: none;
 }
 
-.header .main-navigation-head .control-order ul li {
+.header .control-order ul li {
     padding: 0 15px 0 15px;
     font-family: Proxima Nova;
     font-size: 12px;
@@ -107,7 +107,7 @@
     cursor: pointer;
 }
 
-.header .main-navigation-head .control-order ul li img {
+.header .control-order ul li img {
     margin: 0 0 0 10px;
 }
 
@@ -135,10 +135,10 @@
     right: -16px;
     top: 5px;
 }
-.main-navigation-head .list-menu .my-drop-down-menu {
+.main-navigation-head .my-drop-down-menu {
     padding: 15px 20px;
 }
-.main-navigation-head .list-menu .my-drop-down-menu .child {
+.main-navigation-head .my-drop-down-menu .child {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -148,9 +148,9 @@
     top: 80px;
     background: #ffffff;
 }
-.main-navigation-head .list-menu .my-drop-down-menu:hover .child {
+.main-navigation-head .my-drop-down-menu:hover .child {
     display: flex;
 }
-.main-navigation-head .list-menu .child li a:hover {
+.main-navigation-head .child li a:hover {
     color: #FF5E1B;
 }

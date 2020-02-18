@@ -42,11 +42,11 @@
     text-decoration: none;
 }
 
-.footer .block-right .subscribe form {
+.footer .block-right form {
     display: flex;
 }
 
-.footer .block-right .subscribe form input{
+.footer .block-right input{
     width: 360px;
     height: 40px;
     background: #33333A;
@@ -59,7 +59,7 @@
     outline: none;
     padding: 0 0 0 15px;
 }
-.footer .block-right .subscribe form button{
+.footer .block-right button{
     width: 166px;
     height: 40px;
     background: #FFFFFF;
@@ -73,7 +73,7 @@
     border: none;
     cursor: pointer;
 }
-.footer .block-right .subscribe .icon{
+.footer .block-right .icon{
     width: 55px;
     display: flex;
     justify-content: space-between;

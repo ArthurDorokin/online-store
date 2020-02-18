@@ -2,8 +2,7 @@ import React from 'react';
 import './mainBanner.css';
 
 
-const MainBanner = () =>
-    (
+const MainBanner = () => (
         <div className="mainBanner">
             <div className="description">
                 <h1>Pants</h1>

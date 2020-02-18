@@ -38,12 +38,14 @@ const contentList = {
         }],
 
 };
+
 const headerList = {
     "Shop": ["плагины", "темы", "хаки"],
     "Fabric": ["компоненты", "модули"],
     "Journal": ["компоненты", "модули", "хаки"],
     "About": ["плагины", "плагины", "темы"]
 };
+
 const footerList = {
     "Categories": ["About us", "Testimonials", "Contact", "Journal", "Privacy Policy"],
     "Partners": ["Support", "Shipping & Returns", "Size Guide", "Product Care"],

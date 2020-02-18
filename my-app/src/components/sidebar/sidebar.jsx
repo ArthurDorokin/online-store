@@ -1,8 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 
-const Sidebar = () => {
-    return (
+const Sidebar = () => (
         <div className="sidebar">
             <div className="container">
                 <div className="sortFilter">
@@ -32,7 +31,6 @@ const Sidebar = () => {
                 </div>
             </div>
         </div>
-    )
-};
+);
 
 export default Sidebar
