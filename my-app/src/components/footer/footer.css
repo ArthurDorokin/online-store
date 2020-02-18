@@ -20,7 +20,7 @@
     display: flex;
 }
 .footer .container ul{
-   padding: 0;
+    padding: 0;
     margin: 0;
 }
 .footer .container h3{
@@ -42,12 +42,11 @@
     text-decoration: none;
 }
 
-/*to many selector */
-.footer .container .block-right .subscribe form {
+.footer .block-right form {
     display: flex;
 }
 
-.footer .container .block-right .subscribe form input{
+.footer .block-right input{
     width: 360px;
     height: 40px;
     background: #33333A;
@@ -60,7 +59,7 @@
     outline: none;
     padding: 0 0 0 15px;
 }
-.footer .container .block-right .subscribe form button{
+.footer .block-right button{
     width: 166px;
     height: 40px;
     background: #FFFFFF;
@@ -74,7 +73,7 @@
     border: none;
     cursor: pointer;
 }
-.footer .container .block-right .subscribe .icon{
+.footer .block-right .icon{
     width: 55px;
     display: flex;
     justify-content: space-between;

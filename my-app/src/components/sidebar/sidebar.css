@@ -43,7 +43,7 @@
     background: url("/img/arrow-down.svg");
     width: 13px;
     height: 8px;
-    right: 0;
+    right: -25px;
     top: 18px;
 }
 
@@ -62,16 +62,6 @@
     color: #33333A;
 }
 
-/*.sidebar .list-section .apparels.submenu li::after {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*background: url("/img/arrow-down.svg");*/
-    /*width: 12px;*/
-    /*height: 8px;*/
-    /*left: -24px;*/
-    /*top: 16px;*/
-    /*transform: rotate(270deg);*/
-/*}*/
 .sidebar .list-section ul li.list-item .submenu.two li:hover {
     color: #FF6008;
 }

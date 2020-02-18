@@ -1,34 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './footer.css';
+import {footerList} from '../constants.js';
 
-// format code
-// check on redundant spaces
-// you don't use life cycle methods; change component on stateless
-class Footer extends Component {
-
-    render() {
-
-        // move to constants
-        const footerList = {
-            "Categories": ["About us", "Testimonials", "Contact", "Journal", "Privacy Policy"],
-            "Partners": ["Support", "Shipping & Returns", "Size Guide", "Product Care"],
-            "Contact us": ["x26A Pagoda St, TANGS", "xSingapore, 058187", "+65 6221 5462"]
-        };
-
+const Footer = () => {
         return (
             <div className="footer">
                 <div className="container">
                     <div className="block-left">
-
-                            {Object.entries(footerList).map(([key, items], index) => (
-                                <div key={index} className="block-item">
-                                    <h3>{key}</h3>
-                                    <ul>
-                                        {items.map((item, jIndex) => <li key={jIndex}>{item}</li>)}
-                                    </ul>
-                                </div>
-                            ))}
-
+                        {Object.entries(footerList).map(([key, items], index) => (
+                            <div key={index} className="block-item">
+                                <h3>{key}</h3>
+                                <ul>
+                                    {items.map((item, jIndex) => <li key={jIndex}>{item}</li>)}
+                                </ul>
+                            </div>
+                        ))}
                     </div>
                     <div className="block-right">
                         <div className="subscribe">
@@ -52,7 +38,6 @@ class Footer extends Component {
                 </div>
             </div>
         );
-    }
-}
+};
 
 export default Footer;
