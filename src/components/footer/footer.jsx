@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import {footerList} from '../constants.js';
 
-const Footer = () => {
+const Footer = () => { // can be shorter
         return (
             <div className="footer">
                 <div className="container">
@@ -22,12 +22,12 @@ const Footer = () => {
                                 <li>Subscribe to newsletter</li>
                                 <br/>
                             </ul>
-                            <form action="">
+                            <form action=""> {/* do you need an action here? */}
                                 <input type="text" placeholder="Enter your email"/>
                                 <button type="submit">Subscribe</button>
                             </form>
                             <div className="icon">
-                                <img src="../img/facebook.svg" alt=""/>
+                                <img src="../img/facebook.svg" alt=""/> {/*empty alt*/}
                                 <img src="../img/twitter.svg" alt=""/>
                             </div>
                         </div>

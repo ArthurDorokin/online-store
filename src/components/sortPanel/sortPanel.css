@@ -33,8 +33,8 @@
     align-items: center;
 }
 .sortPanel .sort p{
-    font-family: Roboto;
-    font-style: normal;
+    font-family: Roboto;/*generic*/
+    font-style: normal; /*create zeroing class for p*/
     font-weight: normal;
     font-size: 24px;
     line-height: 40px;

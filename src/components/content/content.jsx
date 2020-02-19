@@ -5,6 +5,7 @@ import {contentList} from '../constants.js';
 const Content = () => {
         const elem = contentList.content.map((item) => {
             return (
+              /* move it block to new Component */
                 <div className="product-item" key={item.id}>
                     <div className="img-main-photo">
                         <img src={item.img} alt=""/>
@@ -20,6 +21,7 @@ const Content = () => {
             <div className="container">
                 <div className="content">
                     <div className="wrapper-product">
+                      {/*import new Component and here just use .map instead above */}
                         {elem}
                     </div>
                 </div>

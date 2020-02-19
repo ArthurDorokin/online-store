@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import {headerList} from '../constants.js';
 
-const Header = () => {
+const Header = () => { // can be shorter
     return (
         <div className="header">
             <div className="strip">
@@ -11,11 +11,11 @@ const Header = () => {
             <div className="main-navigation-head">
                 <div className="wrap-l-m">
                     <div className="logo">
-                        <img src="../img/Logo.svg" alt=""/>
+                        <img src="../img/Logo.svg" alt=""/> {/*empty alt*/}
                     </div>
                     <div className="list-menu">
                         {Object.entries(headerList).map(([key, items], index) => (
-
+                            /*empty line???*/
                             <div key={index} className="my-drop-down-menu">
                                 <div className="name-group"><p>{key}</p></div>
                                 <div className="drop-down-child">
@@ -29,7 +29,8 @@ const Header = () => {
                 </div>
                 <div className="control-order">
                     <ul>
-                        <li>WELCOME, ALEX<img src="../img/Rectangle.svg" alt=""/></li>
+                        {/*move it data to constants and use .map*/}
+                        <li>WELCOME, ALEX<img src="../img/Rectangle.svg" alt=""/></li>{/*empty alt*/}
                         <li><img src="../img/search.svg" alt=""/></li>
                         <li><img src="../img/Heart.svg" alt=""/></li>
                         <li><img src="../img/order.svg" alt=""/></li>

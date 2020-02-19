@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 
-const Sidebar = () => (
+const Sidebar = () => (/*format code*/
         <div className="sidebar">
             <div className="container">
                 <div className="sortFilter">
@@ -14,7 +14,9 @@ const Sidebar = () => (
                 </div>
                 <div className="list-section">
                     <ul>
-                        <li className="list-item">Apparels
+                        {/*move data to constants (see below)*/}
+                        {/*parse data with map methods*/}
+                        <li className="list-item">Apparels {/*you really need class names here?*/}
                             <ul className="apparels submenu one">
                                 <li>Pants</li>
                                 <li>Jumpsuits</li>
@@ -34,3 +36,11 @@ const Sidebar = () => (
 );
 
 export default Sidebar
+
+
+// example data
+// const data = [
+//     {title: 'Apparels', children: [{title: 'Pants'}, ...]},
+//     {title: 'Accessories'},
+//     ...
+// ]
