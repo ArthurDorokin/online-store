@@ -1,7 +1,7 @@
 import React from 'react';
 import './content.css';
 import {contentList} from '../constants.js';
-
+/*/test/*/
 const Content = () => {
         const elem = contentList.content.map((item) => {
             return (
