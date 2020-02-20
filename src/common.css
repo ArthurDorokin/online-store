@@ -7,22 +7,23 @@
 
 body {
     margin: 0 0 0 0;
-    font-family: 'Raleway', sans-serif;
-}
-h1 {
-    font-family: Proxima Nova;/*where is generic?*/
-    font-style: normal;/*redundant*/
+    font-family: Proxima Nova;
+    font-style: normal;
     font-weight: normal;
+}
+body p{
+    font-family: Proxima Nova;
+}
+
+h1 {
     font-size: 60px;
     line-height: 90px;
     text-align: center;
     color: #33333A;
-    margin: 0;/*redundant*/
 }
 .main-content {
     width: 1366px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    font-family: Proxima Nova;
 }
