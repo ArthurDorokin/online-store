@@ -2,8 +2,7 @@ import React from 'react';
 import './footer.css';
 import {footerList} from '../constants.js';
 
-const Footer = () => { // can be shorter
-        return (
+const Footer = () => (
             <div className="footer">
                 <div className="container">
                     <div className="block-left">
@@ -22,13 +21,13 @@ const Footer = () => { // can be shorter
                                 <li>Subscribe to newsletter</li>
                                 <br/>
                             </ul>
-                            <form action=""> {/* do you need an action here? */}
+                            <form>
                                 <input type="text" placeholder="Enter your email"/>
                                 <button type="submit">Subscribe</button>
                             </form>
                             <div className="icon">
-                                <img src="../img/facebook.svg" alt=""/> {/*empty alt*/}
-                                <img src="../img/twitter.svg" alt=""/>
+                                <img src="../img/facebook.svg" alt="facebook"/>
+                                <img src="../img/twitter.svg" alt="twitter"/>
                             </div>
                         </div>
                     </div>
@@ -38,6 +37,5 @@ const Footer = () => { // can be shorter
                 </div>
             </div>
         );
-};
 
 export default Footer;

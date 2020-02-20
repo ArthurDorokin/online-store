@@ -48,7 +48,6 @@
 
 .header .list-menu ul li a {
     padding: 0 15px 0 15px;
-    font-family: Proxima Nova; /* where is generic? */
     font-size: 12px;
     line-height: 40px;
     letter-spacing: 1px;
@@ -87,7 +86,6 @@
     right: -3px;
 }
 
-
 .header .control-order ul {
     margin: 0;
     display: flex;
@@ -96,7 +94,6 @@
 
 .header .control-order ul li {
     padding: 0 15px 0 15px;
-    font-family: Proxima Nova; /*the same above*/
     font-size: 12px;
     line-height: 40px;
     letter-spacing: 1px;

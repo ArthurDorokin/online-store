@@ -9,7 +9,7 @@ const MainBanner = () => (/*format code*/
                 <p>Apparels</p>
             </div>
             <div className="mainImg">
-                <img src="../img/mainBanner.svg" alt=""/> {/*alt*/}
+                <img src="../img/mainBanner.svg" alt="mainBanner"/>
             </div>
         </div>
     );
