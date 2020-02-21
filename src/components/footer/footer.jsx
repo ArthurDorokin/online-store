@@ -1,7 +1,6 @@
 import React from 'react';
 import './footer.css';
 import {footerList} from '../constants.js';
-
 const Footer = () => (
             <div className="footer">
                 <div className="container">
@@ -23,7 +22,7 @@ const Footer = () => (
                             </ul>
                             <form>
                                 <input type="text" placeholder="Enter your email"/>
-                                <button type="submit">Subscribe</button>
+                                <button type="submit" className="outline">Subscribe</button>
                             </form>
                             <div className="icon">
                                 <img src="../img/facebook.svg" alt="facebook"/>
@@ -37,5 +36,4 @@ const Footer = () => (
                 </div>
             </div>
         );
-
 export default Footer;

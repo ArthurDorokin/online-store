@@ -22,22 +22,24 @@
 }
 
 .sidebar .list-section {
-    font-family: Roboto; /*generic font...*/
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 40px;
     color: #333333;
 }
+
 .sidebar .list-section ul {
     padding: 0;
 }
-.sidebar .list-section ul li.list-item {
+
+.sidebar .list-item {
     cursor: pointer;
     list-style-type: none;
     position: relative;
 }
-.sidebar .list-section ul li.list-item::before {
+
+.sidebar .list-item::before {
     content: '';
     position: absolute;
     background: url("/img/arrow-down.svg");
@@ -47,12 +49,11 @@
     top: 18px;
 }
 
-
-/*to many selectors*/
-.sidebar .list-section ul li.list-item .apparels.submenu {
+.sidebar .list-item .apparels.submenu {
     padding: 0 0 0 25px;
 }
-.sidebar .list-section ul li.list-item .apparels.submenu li{
+
+.sidebar .list-item .apparels.submenu li {
     position: relative;
     font-size: 12px;
     line-height: 40px;
@@ -62,10 +63,11 @@
     color: #33333A;
 }
 
-.sidebar .list-section ul li.list-item .submenu.two li:hover {
+.sidebar .list-item .submenu.two li:hover {
     color: #FF6008;
 }
-.sidebar .list-section ul li.list-item .submenu.two li::after {
+
+.sidebar .list-item .submenu.two li::after {
     content: '';
     position: absolute;
     background: none;
@@ -75,6 +77,6 @@
     top: 18px;
 }
 
-.sidebar .list-section ul li.list-item .submenu li.active::after{
+.sidebar .list-item .submenu li.active::after {
     transform: rotate(0deg);
 }

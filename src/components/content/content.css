@@ -2,19 +2,23 @@
     width: 75%;
     margin: 0 auto;
 }
+
 .content .wrapper-product {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .content .product-item {
     width: 32%;
     height: 500px;
     margin: 0 0 15px 0;
 }
-.content .img-main-photo img{
+
+.content .img-main-photo img {
     width: 100%;
 }
-.content .product-description{
+
+.content .product-description {
     width: 90%;
 }

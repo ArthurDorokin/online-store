@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import {headerList} from '../constants.js';
-
 const Header = () => (
         <div className="header">
             <div className="strip">
@@ -37,5 +36,4 @@ const Header = () => (
             </div>
         </div>
     );
-
 export default Header

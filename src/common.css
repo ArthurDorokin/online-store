@@ -24,3 +24,7 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
+.outline {
+    outline: none;
+}
