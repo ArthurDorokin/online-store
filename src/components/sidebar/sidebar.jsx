@@ -1,5 +1,6 @@
 import React from 'react';
 import './sidebar.css';
+import {sidebarList} from '../constants.js';
 const Sidebar = () => (
         <div className="sidebar">
             <div className="container">
@@ -13,32 +14,19 @@ const Sidebar = () => (
                 </div>
                 <div className="list-section">
                     <ul>
-                        {/*move data to constants (see below)*/}
-                        {/*parse data with map methods*/}
-                        <li className="list-item">Apparels {/*you really need class names here?*/}
-                            <ul className="apparels submenu one">
-                                <li>Pants</li>
-                                <li>Jumpsuits</li>
-                                <li>Shorts</li>
-                                <li>Tops</li>
-                            </ul>
-                        </li>
-                        <li className="list-item">Accessories</li>
-                        <li className="list-item">Houseware</li>
-                        <li className="list-item">Others</li>
-                        <li className="list-item">Techniques</li>
-                        <li className="list-item">Styles</li>
+                        {Object.entries(sidebarList).map(([key, items], index) => (
+                            <li key={index} className="list-item">
+                                <h5>{key}</h5>
+                                <div className="submenu">
+                                    <ul>
+                                        {items.map((item, jIndex) => <li key={jIndex}>{item}</li>)}
+                                    </ul>
+                                </div>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
         </div>
 );
 export default Sidebar
-
-
-// example data
-// const data = [
-//     {title: 'Apparels', children: [{title: 'Pants'}, ...]},
-//     {title: 'Accessories'},
-//     ...
-// ]

@@ -1,5 +1,5 @@
 .sidebar {
-    width: 19%;
+    width: 300px;
 }
 
 .sidebar .sortFilter {
@@ -43,17 +43,17 @@
     content: '';
     position: absolute;
     background: url("/img/arrow-down.svg");
-    width: 13px;
-    height: 8px;
-    right: -25px;
+    width: 12px;
+    height: 6px;
+    right: 20px;
     top: 18px;
 }
 
-.sidebar .list-item .apparels.submenu {
+.sidebar .list-item .submenu ul {
     padding: 0 0 0 25px;
 }
 
-.sidebar .list-item .apparels.submenu li {
+.sidebar .list-item .submenu li {
     position: relative;
     font-size: 12px;
     line-height: 40px;
@@ -61,21 +61,22 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #33333A;
+    cursor: pointer;
 }
 
-.sidebar .list-item .submenu.two li:hover {
-    color: #FF6008;
-}
+/*.sidebar .list-item .submenu.two li:hover {*/
+/*    color: #FF6008;*/
+/*}*/
 
-.sidebar .list-item .submenu.two li::after {
-    content: '';
-    position: absolute;
-    background: none;
-    width: 13px;
-    height: 8px;
-    right: 0;
-    top: 18px;
-}
+/*.sidebar .list-item .submenu.two li::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    background: none;*/
+/*    width: 13px;*/
+/*    height: 8px;*/
+/*    right: 0;*/
+/*    top: 18px;*/
+/*}*/
 
 .sidebar .list-item .submenu li.active::after {
     transform: rotate(0deg);

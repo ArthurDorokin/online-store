@@ -20,7 +20,7 @@ h1 {
 
 .main-content {
     width: 1366px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
 }

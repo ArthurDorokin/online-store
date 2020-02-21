@@ -52,7 +52,17 @@ const footerList = {
     "Contact us": ["x26A Pagoda St, TANGS", "xSingapore, 058187", "+65 6221 5462"]
 };
 
+const sidebarList = {
+    "Apparels": ["Pants-a", "Jumpsuits-a", "Shorts-a", "Tops-a"],
+    "Accessories": ["Pants-a", "Jumpsuits-a", "Shorts-a", "Tops-a"],
+    "Houseware": ["Pants-h","Jumpsuits-h", "Shorts-h", "Tops-h"],
+    "Others": ["Pants-o","Jumpsuits-o", "Shorts-o", "Tops-o"],
+    "Techniques": ["Pants-t","Jumpsuits-t", "Shorts-t", "Tops-t"],
+    "Styles": ["Pants-s","Jumpsuits-s", "Shorts-s", "Tops-s"]
+};
+
 export {
+    sidebarList,
     contentList,
     headerList,
     footerList
