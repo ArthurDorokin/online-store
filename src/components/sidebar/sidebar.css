@@ -64,20 +64,6 @@
     cursor: pointer;
 }
 
-/*.sidebar .list-item .submenu.two li:hover {*/
-/*    color: #FF6008;*/
-/*}*/
-
-/*.sidebar .list-item .submenu.two li::after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    background: none;*/
-/*    width: 13px;*/
-/*    height: 8px;*/
-/*    right: 0;*/
-/*    top: 18px;*/
-/*}*/
-
 .sidebar .list-item .submenu li.active::after {
     transform: rotate(0deg);
 }

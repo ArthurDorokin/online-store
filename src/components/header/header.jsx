@@ -1,7 +1,14 @@
 import React from 'react';
 import './header.css';
-import {headerList} from '../constants.js';
-const Header = () => (
+import {headerList, headerControlList} from '../constants.js';
+
+const Header = () => {
+    const elem = headerControlList.controlOrder.map((item, index) => {
+        return (
+            <li key={index}>{item.info}<img src={item.img} alt={item.alt}/></li>
+        )
+    });
+    return (
         <div className="header">
             <div className="strip">
                 <p>Free shipping for orders above USD 150</p>
@@ -26,14 +33,11 @@ const Header = () => (
                 </div>
                 <div className="control-order">
                     <ul>
-                        {/*move it data to constants and use .map*/}
-                        <li>WELCOME, ALEX<img src="../img/Rectangle.svg" alt="Rectangle"/></li>
-                        <li><img src="../img/search.svg" alt="search"/></li>
-                        <li><img src="../img/Heart.svg" alt="Heart"/></li>
-                        <li><img src="../img/order.svg" alt="order"/></li>
+                        {elem}
                     </ul>
                 </div>
             </div>
         </div>
-    );
+    )
+};
 export default Header

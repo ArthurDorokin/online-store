@@ -34,7 +34,7 @@
     color: #030303;
 }
 
-.sortPanel .sort {
+.sortPanel .sort .block-item {
     display: flex;
     align-items: center;
 }
@@ -53,4 +53,5 @@
     box-sizing: border-box;
     padding: 10px;
     width: 165px;
+    margin: 0 0 0 20px;
 }
