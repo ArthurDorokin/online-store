@@ -1,3 +1,3 @@
-import SortPanel from "./sortPanel";
+import SortPanel from "./SortPanel";
 
 export default SortPanel;

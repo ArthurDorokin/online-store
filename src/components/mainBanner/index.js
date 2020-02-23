@@ -1,3 +1,3 @@
-import MainBanner from "./mainBanner";
+import MainBanner from "./MainBanner";
 
 export default MainBanner;

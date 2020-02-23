@@ -6,12 +6,8 @@ const Sidebar = () => (
     <div className="sidebar">
         <div className="container">
             <div className="sortFilter">
-                <div className="filters">
-                    <p>FILTERS</p>
-                </div>
-                <div className="reset"> {/*я вот нигде не нашел стиль под reset*/}
-                    <p>RESET</p> {/*обязательно еще один селектор внутри дива?*/}
-                </div>
+                <div>FILTERS</div>
+                <div>RESET</div>
             </div>
             <div className="list-section">
                 <ul>
@@ -30,4 +26,5 @@ const Sidebar = () => (
         </div>
     </div>
 );
+
 export default Sidebar

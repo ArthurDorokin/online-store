@@ -51,7 +51,7 @@ const headerControlList = {
         {
             info: 'WELCOME, ALEX',
             img: '../img/rectangle.svg',
-            alt: 'Rectangle'
+            alt: 'rectangle'
         },
         {
             img: '../img/search.svg',

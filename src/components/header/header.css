@@ -86,13 +86,13 @@
     right: -3px;
 }
 
-.header .control-order ul {
+.header .control-order {
     margin: 0;
     display: flex;
     list-style-type: none;
 }
 
-.header .control-order ul li {
+.header .control-order img {
     padding: 0 15px 0 15px;
     font-size: 12px;
     line-height: 40px;

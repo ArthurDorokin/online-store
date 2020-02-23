@@ -24,4 +24,5 @@ const SortPanel = () => (
         </div>
     </div>
 );
+
 export default SortPanel

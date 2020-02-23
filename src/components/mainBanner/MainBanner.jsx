@@ -11,5 +11,6 @@ const MainBanner = () => (
             <img src="../img/mainBanner.svg" alt="mainBanner"/>
         </div>
     </div>
-);/*перед экспортом оставляй пробел*/
+);
+
 export default MainBanner
