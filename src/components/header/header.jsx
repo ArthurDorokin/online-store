@@ -3,11 +3,13 @@ import './header.css';
 import {headerList, headerControlList} from '../constants.js';
 
 const Header = () => {
+    /*зачем это здесь?*/
     const elem = headerControlList.controlOrder.map((item, index) => {
         return (
             <li key={index}>{item.info}<img src={item.img} alt={item.alt}/></li>
         )
     });
+
     return (
         <div className="header">
             <div className="strip">
@@ -32,8 +34,10 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="control-order">
+                    {/*а обязательно выводить картинки внутри списка? можно ли просто вывести пачку картинок внутри дива?*/}
+                    {/*старайся избегать применения отягчающих дом структур*/}
                     <ul>
-                        {elem}
+                        {elem}{/*разве это элемент??? это же массив jsx*/}
                     </ul>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import {footerList} from '../constants.js';
 const Footer = () => (
-            <div className="footer">
+            <div className="footer"> {/*форматирование кода: вот здесь зачем то стоит два таба вместо одного*/}
                 <div className="container">
                     <div className="block-left">
                         {Object.entries(footerList).map(([key, items], index) => (

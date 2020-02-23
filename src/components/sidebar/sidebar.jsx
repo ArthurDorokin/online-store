@@ -9,8 +9,8 @@ const Sidebar = () => (
                 <div className="filters">
                     <p>FILTERS</p>
                 </div>
-                <div className="reset">
-                    <p>RESET</p>
+                <div className="reset"> {/*я вот нигде не нашел стиль под reset*/}
+                    <p>RESET</p> {/*обязательно еще один селектор внутри дива?*/}
                 </div>
             </div>
             <div className="list-section">
