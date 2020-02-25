@@ -6,7 +6,6 @@ import Sidebar from './components/sidebar';
 import Content from './components/content';
 import Footer from './components/footer';
 
-
 const App = () => (
     <div className="app">
         <div className="container">
@@ -21,5 +20,4 @@ const App = () => (
         </div>
     </div>
 );
-
-export default App
+export default App;

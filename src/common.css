@@ -1,4 +1,3 @@
-/*standard zeroing for common styles*/
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +6,25 @@
 
 body {
     margin: 0 0 0 0;
-    font-family: 'Raleway', sans-serif;
-}
-h1 {
-    font-family: Proxima Nova;/*where is generic?*/
-    font-style: normal;/*redundant*/
+    font-family: Raleway;
+    font-style: normal;
     font-weight: normal;
+}
+
+h1 {
     font-size: 60px;
     line-height: 90px;
     text-align: center;
     color: #33333A;
-    margin: 0;/*redundant*/
 }
+
 .main-content {
     width: 1366px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
-    font-family: Proxima Nova;
+}
+
+.outline {
+    outline: none;
 }

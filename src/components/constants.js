@@ -46,16 +46,55 @@ const headerList = {
     "About": ["плагины", "плагины", "темы"]
 };
 
+const headerControlList = {
+    'controlOrder': [
+        {
+            info: 'WELCOME, ALEX',
+            img: '../img/rectangle.svg',
+            alt: 'rectangle'
+        },
+        {
+            img: '../img/search.svg',
+            alt: 'search'
+        },
+        {
+            img: '../img/Heart.svg',
+            alt: 'heart'
+        },
+        {
+            img: '../img/order.svg',
+            alt: 'order'
+        },
+    ],
+
+};
+
 const footerList = {
     "Categories": ["About us", "Testimonials", "Contact", "Journal", "Privacy Policy"],
     "Partners": ["Support", "Shipping & Returns", "Size Guide", "Product Care"],
     "Contact us": ["x26A Pagoda St, TANGS", "xSingapore, 058187", "+65 6221 5462"]
 };
 
+const sidebarList = {
+    "Apparels": ["Pants-a", "Jumpsuits-a", "Shorts-a", "Tops-a"],
+    "Accessories": ["Pants-a", "Jumpsuits-a", "Shorts-a", "Tops-a"],
+    "Houseware": ["Pants-h", "Jumpsuits-h", "Shorts-h", "Tops-h"],
+    "Others": ["Pants-o", "Jumpsuits-o", "Shorts-o", "Tops-o"],
+    "Techniques": ["Pants-t", "Jumpsuits-t", "Shorts-t", "Tops-t"],
+    "Styles": ["Pants-s", "Jumpsuits-s", "Shorts-s", "Tops-s"]
+};
+
+const sortSelectList = {
+    "Sort by": ["PRICE", "PRICE 1", "PRICE 2", "PRICE 3", "PRICE 4", "PRICE 5"]
+};
+
 export {
+    sidebarList,
     contentList,
     headerList,
-    footerList
+    footerList,
+    sortSelectList,
+    headerControlList
 }
 
 
