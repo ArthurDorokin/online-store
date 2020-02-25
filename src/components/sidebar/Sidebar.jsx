@@ -3,6 +3,7 @@ import './sidebar.css';
 import {sidebarList} from '../constants.js';
 
 const Sidebar = () => (
+    // test new branch
     <div className="sidebar">
         <div className="container">
             <div className="sortFilter">
