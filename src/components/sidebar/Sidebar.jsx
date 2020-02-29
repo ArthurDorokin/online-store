@@ -3,7 +3,7 @@ import './sidebar.css';
 import {sidebarList} from '../constants.js';
 import {SidebarTitle} from './SidebarTitle';
 
-const Sidebar = () => {
+const Sidebar = () => {// need to simply
     return (
         <div className="sidebar">
             <div className="container">

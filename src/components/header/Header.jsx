@@ -15,6 +15,7 @@ const Header = () => (
                 <div className="list-menu">
                     {Object.entries(headerList).map(([key, items], index) => (
                         <div key={index} className="my-drop-down-menu">
+                            {/*try to avoid two selectors on one line*/}
                             <div className="name-group"><p>{key}</p></div>
                             <div className="drop-down-child">
                                 <ul className="child">
