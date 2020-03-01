@@ -88,6 +88,10 @@ const sortSelectList = {
     "Sort by": ["PRICE", "PRICE 1", "PRICE 2", "PRICE 3", "PRICE 4", "PRICE 5"]
 };
 
+const selectSize = {
+    "- SIZES": ["1", "2", "3", "4"]
+};
+
 export {
     sidebarList,
     contentList,
