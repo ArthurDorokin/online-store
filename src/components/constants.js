@@ -89,7 +89,24 @@ const sortSelectList = {
 };
 
 const selectSize = {
-    "- SIZES": ["1", "2", "3", "4"]
+    "sizes": [
+        {
+            size: '1',
+            id: 0
+        },
+        {
+            size: '2',
+            id: 1
+        },
+        {
+            size: '3',
+            id: 2
+        },
+        {
+            size: '4',
+            id: 3
+        }
+    ]
 };
 
 export {
@@ -98,7 +115,8 @@ export {
     headerList,
     footerList,
     sortSelectList,
-    headerControlList
+    headerControlList,
+    selectSize
 }
 
 

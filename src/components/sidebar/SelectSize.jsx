@@ -1,15 +1,9 @@
 import React, {Component} from 'react'
 
-export const SelectSize = () => {
+export const SelectSize = ({selectSize}) => {
     return (
-        <div className="selectSize">
-            <h5>- SIZES</h5>
-            <div className="wrapSelectSize">
-                <div className="size-item active">1</div>
-                <div className="size-item">2</div>
-                <div className="size-item">3</div>
-                <div className="size-item">4</div>
-            </div>
+        <div className="wrapSelectSize">
+            {selectSize.sizes.map((item, index) => <div className="size-item" key={item.id}>{item.size}</div>)}
         </div>
     )
 };
