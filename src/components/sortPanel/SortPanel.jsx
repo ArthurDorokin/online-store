@@ -12,6 +12,9 @@ const SortPanel = () => (
                 </ul>
             </div>
             <div className="sort">
+                <div className="search">
+                    <input className="search-input" type="text" placeholder="Search..."/>
+                </div>
                 {Object.entries(sortSelectList).map(([key, items], index) => (
                     <div key={index} className="block-item">
                         <h5>{key}</h5>

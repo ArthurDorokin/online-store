@@ -34,6 +34,21 @@
     color: #030303;
 }
 
+.sortPanel .sort {
+    display: flex;
+    align-items: center;
+}
+
+.sortPanel .sort .search {
+    padding: 0 25px 0 0;
+}
+
+.sortPanel .sort .search-input {
+    padding: 4px 5px;
+    width: 200px;
+    outline: none;
+}
+
 .sortPanel .sort .block-item {
     display: flex;
     align-items: center;
