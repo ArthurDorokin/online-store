@@ -8,32 +8,32 @@ const contentList = {
         },
         {
             img: '../img/81kH6yCcnWL._SX700_.jpg',
-            description: 'Pueraria Mirifica And Study Phyto Estrogens',
+            description: 'Fort Point Insulated Flannel',
             price: '$325.00',
             id: 2
         },
         {
             img: '../img/81xFNXOeMfL._SX700_.jpg',
-            description: 'Pueraria Mirifica And Study Phyto Estrogens',
+            description: 'Thermoball Eco Snow Triclimate',
             price: '$740.00',
             id: 3
         },
         {
             img: '../img/71epjBy+bNL._SX700_.jpg',
-            description: 'Pueraria Mirifica And Study Phyto Estrogens',
+            description: 'Bombay Jacket',
             price: '$965.00',
             id: 4
         },
         {
             img: '../img/81kH6yCcnWL._SX700_.jpg',
-            description: 'Pueraria Mirifica And Study Phyto Estrogens',
-            price: '$965.00',
+            description: 'Battlement Jacket',
+            price: '$836.00',
             id: 5
         },
         {
             img: '../img/81xFNXOeMfL._SX700_.jpg',
-            description: 'Pueraria Mirifica And Study Phyto Estrogens',
-            price: '$852.00',
+            description: 'Millerton Jacket',
+            price: '$252.00',
             id: 6
         }],
 
@@ -52,10 +52,6 @@ const headerControlList = {
             info: 'WELCOME, ALEX',
             img: '../img/rectangle.svg',
             alt: 'rectangle'
-        },
-        {
-            img: '../img/search.svg',
-            alt: 'search'
         },
         {
             img: '../img/Heart.svg',
@@ -85,7 +81,7 @@ const sidebarList = {
 };
 
 const sortSelectList = {
-    "Sort by": ["PRICE", "PRICE 1", "PRICE 2", "PRICE 3", "PRICE 4", "PRICE 5"]
+    "Sort by": ["price", "name"]
 };
 
 const selectSize = {

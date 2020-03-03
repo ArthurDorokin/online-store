@@ -2,12 +2,13 @@
     width: 25%;
 }
 
-.sidebar .sortFilter {
+.sidebar .sortFilter > div{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     border-bottom: 2px solid rgba(0, 0, 0, .1);
     margin: 10px 0;
     padding: 0 0 5px 0;
+    cursor: pointer;
 }
 
 .sidebar .sortFilter p {
