@@ -1,6 +1,7 @@
 import React from 'react';
 import './sortPanel.css';
 import {sortSelectList} from "../constants.js";
+import Search from "./Search";
 
 const SortPanel = () => (
     <div className="sortPanel">
@@ -12,9 +13,7 @@ const SortPanel = () => (
                 </ul>
             </div>
             <div className="sort">
-                <div className="search">
-                    <input className="search-input" type="text" placeholder="Search..."/>
-                </div>
+                <Search />
                 {Object.entries(sortSelectList).map(([key, items], index) => (
                     <div key={index} className="block-item">
                         <h5>{key}</h5>

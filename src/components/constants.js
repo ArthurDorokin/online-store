@@ -36,6 +36,7 @@ const contentList = {
             price: '$252.00',
             id: 6
         }],
+    term: ''
 
 };
 
@@ -71,49 +72,16 @@ const footerList = {
     "Contact us": ["x26A Pagoda St, TANGS", "xSingapore, 058187", "+65 6221 5462"]
 };
 
-const sidebarList = {
-    "Apparels": ["Pants-a", "Jumpsuits-a", "Shorts-a", "Tops-a"],
-    "Accessories": ["Pants-a", "Jumpsuits-a", "Shorts-a", "Tops-a"],
-    "Houseware": ["Pants-h", "Jumpsuits-h", "Shorts-h", "Tops-h"],
-    "Others": ["Pants-o", "Jumpsuits-o", "Shorts-o", "Tops-o"],
-    "Techniques": ["Pants-t", "Jumpsuits-t", "Shorts-t", "Tops-t"],
-    "Styles": ["Pants-s", "Jumpsuits-s", "Shorts-s", "Tops-s"]
-};
-
-/*create constants.js in sidebare and move all relative variables there*/
 const sortSelectList = {
     "Sort by": ["price", "name"]
 };
 
-const selectSize = {/*not understand variable name - selectSize, more suitable for function name*/
-    "sizes": [
-        {
-            size: '1',
-            id: 0/*as rule id on first place*/
-        },
-        {
-            size: '2',
-            id: 1
-        },
-        {
-            size: '3',
-            id: 2
-        },
-        {
-            size: '4',
-            id: 3
-        }
-    ]
-};
-
 export {
-    sidebarList,
     contentList,
     headerList,
-    footerList,
     sortSelectList,
-    headerControlList,
-    selectSize
+    footerList,
+    headerControlList
 }
 
 

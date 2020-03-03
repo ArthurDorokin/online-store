@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './sidebar.css';
-import {sidebarList, selectSize} from '../constants.js';
+import {sidebarList, selectSizeSidebar} from './constans';
 import {SidebarTitle} from './SidebarTitle';
 import {SortFilter} from './SortFilter';
 import {SidebarLists} from './SidebarLists';
@@ -24,7 +24,7 @@ const Sidebar = () => (
             </div>
             <div className="selectSize">
                 <h5>- SIZES</h5>
-                <SelectSize selectSize={selectSize}/>
+                <SelectSize selectSizeSidebar={selectSizeSidebar}/>
             </div>
         </div>
     </div>
