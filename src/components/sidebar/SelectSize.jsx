@@ -6,7 +6,7 @@ export const SelectSize = ({selectSizeSidebar}) => {
     //   (id) => setActive(id),
     //   [active]
     // );
-
+    console.log(active);
     return (
         <div className="wrapSelectSize">
             {selectSizeSidebar.sizes.map((item, index) =>
