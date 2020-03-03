@@ -84,15 +84,16 @@ const sidebarList = {
     "Styles": ["Pants-s", "Jumpsuits-s", "Shorts-s", "Tops-s"]
 };
 
+/*create constants.js in sidebare and move all relative variables there*/
 const sortSelectList = {
     "Sort by": ["PRICE", "PRICE 1", "PRICE 2", "PRICE 3", "PRICE 4", "PRICE 5"]
 };
 
-const selectSize = {
+const selectSize = {/*not understand variable name - selectSize, more suitable for function name*/
     "sizes": [
         {
             size: '1',
-            id: 0
+            id: 0/*as rule id on first place*/
         },
         {
             size: '2',
