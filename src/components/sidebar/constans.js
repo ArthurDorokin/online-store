@@ -7,6 +7,245 @@ const sidebarList = {
     "Styles": ["Pants-s", "Jumpsuits-s", "Shorts-s", "Tops-s"]
 };
 
+const sidebarListNew = {
+    ['shoes']: {
+        ['boots']: {
+            id: 1,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['sandals']: {
+            id: 2,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['oxfords']: {
+            id: 3,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        }
+    },
+    ['clothing']: {
+        ['jeans']: {
+            id: 1,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['coats & jackets']: {
+            id: 2,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['sweatshirts']: {
+            id: 3,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        }
+    },
+    ['bags']: {
+        ['messenger bags']: {
+            id: 1,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['backpacks']: {
+            id: 2,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['duffel bags']: {
+            id: 3,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        }
+    },
+    ['accessories']: {
+        ['sunglasses']: {
+            id: 1,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['hats']: {
+            id: 2,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        },
+        ['watches']: {
+            id: 3,
+            kinds: [
+                {
+                    id: 1,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+                {
+                    id: 2,
+                    img: 'img',
+                    brand: 'brand',
+                    name: 'name',
+                    price: 'price',
+                },
+            ]
+        }
+    }
+};
+
 const selectSizeSidebar = {
     "sizes": [
         {
@@ -30,5 +269,6 @@ const selectSizeSidebar = {
 
 export {
     sidebarList,
-    selectSizeSidebar
+    selectSizeSidebar,
+    sidebarListNew
 }

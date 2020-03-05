@@ -42,12 +42,24 @@
     position: relative;
 }
 
+.sidebar .list-item h5{
+    text-transform: capitalize;
+    transition: .5s;
+}
+.sidebar .list-item h5.active{
+    color: #FF6008;
+    transition: .5s;
+}
+.sidebar .list-item h5:hover{
+    color: #FF6008;
+    transition: .5s;
+}
 .sidebar .list-item h5::before {
     content: '';
     position: absolute;
     background: url("/img/arrow-down.svg");
     width: 12px;
-    height: 6px;
+    height: 7px;
     right: 0;
     top: 18px;
     transform: rotate(-90deg);
@@ -59,8 +71,20 @@
     transition: .5s;
 }
 
+.sidebar .submenu li::before {
+    content: '';
+    position: absolute;
+    background: url("/img/arrow-down.svg");
+    width: 12px;
+    height: 7px;
+    left: -20px;
+    top: 16px;
+    transform: rotate(-90deg);
+    transition: .5s;
+}
+
 .sidebar .list-item .submenu ul {
-    padding: 0 0 0 25px;
+    padding: 0 0 0 30px;
 }
 
 .sidebar .list-item .submenu li {
@@ -69,9 +93,14 @@
     line-height: 40px;
     list-style-type: none;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #33333A;
     cursor: pointer;
+    transition: .5s;
+}
+.sidebar .list-item .submenu li:hover {
+    color: #FF6008;
+    transition: .5s;
 }
 
 .sidebar .list-item .submenu {
@@ -90,7 +119,7 @@
     -ms-transform: scaleY(1);
     transform: scaleY(1);
     transition: .5s;
-    height: 160px;
+    height: 120px;
 }
 
 .sidebar .selectSize {

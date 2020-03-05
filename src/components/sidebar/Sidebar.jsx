@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './sidebar.css';
-import {sidebarList, selectSizeSidebar} from './constans';
+import {sidebarList, selectSizeSidebar,sidebarListNew} from './constans';
 import {SidebarTitle} from './SidebarTitle';
 import {SortFilter} from './SortFilter';
 import {SidebarLists} from './SidebarLists';
@@ -12,7 +12,7 @@ const Sidebar = () => (
             <SortFilter/>
             <div className="list-section">
                 <ul>
-                    {Object.entries(sidebarList).map(([key, items], index) => (
+                    {Object.entries(sidebarListNew).map(([key, items], index) => (
                         <li key={index} className="list-item">
                             <SidebarTitle title={key}/>
                             <div className="submenu">
