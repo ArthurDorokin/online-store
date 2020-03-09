@@ -12,9 +12,9 @@ const Sidebar = () => (
             <SortFilter/>
             <div className="list-section">
                 <ul>
-                    {Object.entries(sidebarListNew).map(([key, items], index) => (
+                    {Object.entries(sidebarListNew).map(([category, items], index) => (
                         <li key={index} className="list-item">
-                            <SidebarTitle title={key}/>
+                            <SidebarTitle title={category}/>
                             <div className="submenu">
                                 <SidebarLists list={items}/>
                             </div>

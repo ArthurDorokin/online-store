@@ -8,238 +8,166 @@ const sidebarList = {
 };
 
 const sidebarListNew = {
-    ['shoes']: {
-        ['boots']: {
+    'shoes': {
+        'boots': {
             id: 1,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
-                    name: 'name',
-                    price: 'price',
+                    name: 'name1',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
-                    name: 'name',
-                    price: 'price',
+                    name: 'name1',
                 },
             ]
         },
-        ['sandals']: {
+        'sandals': {
             id: 2,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
-                    name: 'name',
-                    price: 'price',
+                    name: 'name2',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
-                    name: 'name',
-                    price: 'price',
+                    name: 'name2',
                 },
             ]
         },
-        ['oxfords']: {
+        'oxfords': {
             id: 3,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
-                    name: 'name',
-                    price: 'price',
+                    name: 'name3',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
-                    name: 'name',
-                    price: 'price',
+                    name: 'name3',
                 },
             ]
         }
     },
-    ['clothing']: {
-        ['jeans']: {
+    'clothing': {
+        'jeans': {
             id: 1,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         },
-        ['coats & jackets']: {
+        'coats & jackets': {
             id: 2,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         },
-        ['sweatshirts']: {
+        'sweatshirts': {
             id: 3,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         }
     },
-    ['bags']: {
-        ['messenger bags']: {
+    'bags': {
+        'messenger bags': {
             id: 1,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         },
-        ['backpacks']: {
+        'backpacks': {
             id: 2,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         },
-        ['duffel bags']: {
+        'duffel bags': {
             id: 3,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         }
     },
-    ['accessories']: {
-        ['sunglasses']: {
+    'accessories': {
+        'sunglasses': {
             id: 1,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         },
-        ['hats']: {
+        'hats': {
             id: 2,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         },
-        ['watches']: {
+        'watches': {
             id: 3,
-            kinds: [
+            'kinds': [
                 {
                     id: 1,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
                 {
                     id: 2,
-                    img: 'img',
-                    brand: 'brand',
                     name: 'name',
-                    price: 'price',
                 },
             ]
         }
