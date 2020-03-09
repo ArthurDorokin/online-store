@@ -22,3 +22,16 @@
 .content .product-description {
     width: 90%;
 }
+
+@media (max-width: 1400px) {
+    .main-content {
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .content .product-item {
+        width: 45%;
+        height: 450px;
+        margin: 0 0 15px 0;
+    }
+}

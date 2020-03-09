@@ -1,12 +1,16 @@
 import React from 'react';
 import './header.css';
 import {headerList, headerControlList} from '../constants.js';
+import {HeaderTitle} from './HeaderTitle';
+import {HeaderBurger} from './HeaderBurger';
+
 
 const Header = () => (
     <div className="header">
         <div className="strip">
             <p>Free shipping for orders above USD 150</p>
         </div>
+        <HeaderBurger />
         <div className="main-navigation-head">
             <div className="wrap-l-m">
                 <div className="logo">
@@ -15,8 +19,7 @@ const Header = () => (
                 <div className="list-menu">
                     {Object.entries(headerList).map(([key, items], index) => (
                         <div key={index} className="my-drop-down-menu">
-                            {/*try to avoid two selectors on one line*/}
-                            <div className="name-group"><p>{key}</p></div>
+                            <HeaderTitle title={key}/>
                             <div className="drop-down-child">
                                 <ul className="child">
                                     {items.map((item, jIndex) => <li key={jIndex}><a href="#">{item}</a></li>)}
@@ -32,5 +35,7 @@ const Header = () => (
         </div>
     </div>
 );
+
+
 
 export default Header

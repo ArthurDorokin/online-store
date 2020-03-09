@@ -18,3 +18,8 @@
     line-height: 40px;
     color: #030303;
 }
+@media (max-width: 1400px) {
+    .mainBanner {
+        padding: 0 0 0 0;
+    }
+}
