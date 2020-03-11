@@ -14,11 +14,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name1',
+                    name: 'leather',
                 },
                 {
                     id: 2,
-                    name: 'name1',
+                    name: 'suede',
                 },
             ]
         },
@@ -27,24 +27,24 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name2',
+                    name: 'beach',
                 },
                 {
                     id: 2,
-                    name: 'name2',
+                    name: 'rope',
                 },
             ]
         },
-        'oxfords': {
+        'sneakers': {
             id: 3,
             'kinds': [
                 {
                     id: 1,
-                    name: 'name3',
+                    name: 'sport',
                 },
                 {
                     id: 2,
-                    name: 'name3',
+                    name: 'casual',
                 },
             ]
         }
@@ -55,11 +55,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'classic',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'slim',
                 },
             ]
         },
@@ -68,11 +68,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'raincoat',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'winter',
                 },
             ]
         },
@@ -81,11 +81,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'kangaroo',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'warm',
                 },
             ]
         }
@@ -96,11 +96,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'small',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'medium',
                 },
             ]
         },
@@ -109,11 +109,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'women',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'men',
                 },
             ]
         },
@@ -122,11 +122,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'duffle-bags',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'handbags',
                 },
             ]
         }
@@ -137,11 +137,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'women',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'men',
                 },
             ]
         },
@@ -150,11 +150,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'women',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'men',
                 },
             ]
         },
@@ -163,11 +163,11 @@ const sidebarListNew = {
             'kinds': [
                 {
                     id: 1,
-                    name: 'name',
+                    name: 'women',
                 },
                 {
                     id: 2,
-                    name: 'name',
+                    name: 'men',
                 },
             ]
         }
