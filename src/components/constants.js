@@ -36,8 +36,6 @@ const contentList = {
             price: '$252.00',
             id: 6
         }],
-    term: ''
-
 };
 
 const headerList = {
