@@ -11,10 +11,16 @@
 
 .content .product-item {
     width: 32%;
-    height: 500px;
     margin: 0 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.content .product-item .img-main-photo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
 .content .img-main-photo img {
     width: 100%;
 }
