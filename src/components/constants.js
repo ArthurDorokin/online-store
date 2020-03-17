@@ -1,5 +1,5 @@
 const contentList = {
-    'content': [
+    content: [
         {
             id: 0,
             img: '../img/71epjBy+bNL._SX700_.jpg',
