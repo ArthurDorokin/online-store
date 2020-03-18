@@ -2,19 +2,15 @@ import React, {useCallback, useState} from 'react'
 
 export const SelectSize = ({selectSizeSidebar}) => {
     const [active, setActive] = useState(selectSizeSidebar.sizes[0].id);
-    //1/ const toggleCallback = useCallback(
-    //   (id) => setActive(id),
-    //   [active]
-    // );
+
     return (
         <div className="wrapSelectSize">
             {selectSizeSidebar.sizes.map((item, index) =>
               <div
-                key={item.id} /*better use here id*/
+                key={item.id}
+                data-id={item.size}
                 className={`${"size-item"} ${item.id === active ? "active" : ""}`}
-                 onClick={() => setActive(item.id)}
-
-                //1/onClick={() => toggleCallback(item.id)}
+                onClick={() => setActive(item.id)}
                 >
                   {item.size}
               </div>
