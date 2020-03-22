@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/header';
-import MainBanner from './components/mainBanner';
-import SortPanel from './components/sortPanel';
-import Sidebar from './components/sidebar';
-import Content from './components/content';
-import Footer from './components/footer';
+import Header from './modules/header';
+import MainBanner from './modules/mainBanner';
+import SortPanel from './modules/sortPanel';
+import Sidebar from './modules/sidebar';
+import Content from './modules/content';
+import Footer from './modules/footer';
 
 const App = () => (
     <div className="app">
