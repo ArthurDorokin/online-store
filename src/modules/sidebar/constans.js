@@ -169,19 +169,19 @@ const selectSizeSidebar = {
     "sizes": [
         {
             id: 0,
-            size: '1'
+            size: 'S'
         },
         {
             id: 1,
-            size: '2'
+            size: 'M'
         },
         {
             id: 2,
-            size: '3'
+            size: 'L'
         },
         {
             id: 3,
-            size: '4'
+            size: 'XL'
         }
     ]
 };
