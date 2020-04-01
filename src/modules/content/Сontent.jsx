@@ -8,6 +8,9 @@ import { addGood, removeGood, toggleDisableGood, filterGood } from './actions'
 class Content extends Component {
   render() {
     console.log(this.props.contentStore);
+
+    //console.log(this.props.contentStore.content.sort((a, b) => a.size > b.size ? 1 : -1))
+
     return (
       <div className="container">
         <div className="content">

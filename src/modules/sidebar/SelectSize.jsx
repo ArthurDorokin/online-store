@@ -11,7 +11,7 @@ export const SelectSize = ({selectSizeSidebar, takeSize}) => {
                     key={item.id}
                     className={`${"size-item"} ${item.id === active ? "active" : ""}`}
                     onClick={() => {
-                        takeSize(item.size);
+                        takeSize(item.sizeSelect);
                         setActive(item.id);
                     }}
                 >

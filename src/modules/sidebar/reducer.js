@@ -9,7 +9,8 @@ const selectSizeStore = (state = selectSizeSidebar, action) => {
                 ...state,
                 {
                     id: state[state.length - 1] + 1,
-                    size: action.size
+                    size: action.size,
+                    sizeSelect: action.sizeSelect
                 }
             ];
         default:

@@ -20,7 +20,7 @@ const contentStore = (state = contentList, action) => {
     case 'TOGGLE_DISABLE_GOOD':
       return state.map((good) => good.id === action.id ? {...good, disabled: !good.disabled} : good);
     case 'FILTER_BY_SIZE':
-      //return ;
+      //return state.sort((a, b) => a.sizeSelect > b.sizeSelect ? 1 : -1);
     default:
       return state
   }

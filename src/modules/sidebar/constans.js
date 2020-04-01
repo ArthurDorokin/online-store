@@ -170,18 +170,22 @@ const selectSizeSidebar = {
         {
             id: 0,
             size: 'S',
+            sizeSelect: 1
         },
         {
             id: 1,
             size: 'M',
+            sizeSelect: 2
         },
         {
             id: 2,
             size: 'L',
+            sizeSelect: 3
         },
         {
             id: 3,
             size: 'XL',
+            sizeSelect: 4
         }
     ]
 };
