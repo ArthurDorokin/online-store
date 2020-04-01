@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import ContentItem from "./ContentItem";
 import './content.css';
 import content from "./reducer";
-import { addGood, removeGood, toggleDisableGood } from './actions'
+import { addGood, removeGood, toggleDisableGood, filterGood } from './actions'
 
 class Content extends Component {
   render() {
@@ -30,7 +30,8 @@ const mapDispatchToProps = dispatch => {
   return {
     addGood: (data) => dispatch(addGood(data)),
     removeGood: (id) => dispatch(removeGood(id)),
-    toggleDisableGood: (id) => dispatch(toggleDisableGood(id))
+    toggleDisableGood: (id) => dispatch(toggleDisableGood(id)),
+    filterGood: (size) => dispatch(filterGood(size))
   }
 };
 

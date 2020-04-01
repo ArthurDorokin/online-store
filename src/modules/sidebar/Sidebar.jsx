@@ -2,24 +2,22 @@ import React, {Component} from 'react';
 import './sidebar.css';
 import {connect} from 'react-redux';
 import content from "./reducer";
-import {selectSizeSidebar} from './constans';
+import {selectSizeSidebar, sidebarListNew} from './constans';
 import {SidebarTitle} from './SidebarTitle';
 import {SortFilter} from './SortFilter';
 import {SidebarLists} from './SidebarLists';
 import {SelectSize} from './SelectSize';
-import {addGood, removeGood, toggleDisableGood} from "../content/actions";
-
+import {filterGood} from "../content/actions";
 
 class Sidebar extends Component {
     render() {
-        console.log(this.props.sidebarStore);
         return (
             <div className="sidebar">
                 <div className="container">
                     <SortFilter/>
                     <div className="list-section">
                         <ul>
-                            {Object.entries(this.props.sidebarStore).map(([category, items], index) => (
+                            {Object.entries(sidebarListNew).map(([category, items], index) => (
                                 <li key={index} className="list-item">
                                     <SidebarTitle title={category}/>
                                     <div className="submenu">
@@ -31,7 +29,7 @@ class Sidebar extends Component {
                     </div>
                     <div className="selectSize">
                         <h5>- SIZES</h5>
-                        <SelectSize selectSizeSidebar={selectSizeSidebar}/>
+                        <SelectSize selectSizeSidebar={this.props.selectSizeStore} takeSize={this.props.filterGood}/>
                     </div>
                 </div>
             </div>
@@ -39,15 +37,13 @@ class Sidebar extends Component {
     }
 };
 
-const mapStateToProps = ({sidebarStore}, ownProps) => {
-    return {sidebarStore}
+const mapStateToProps = ({selectSizeStore}, ownProps) => {
+    return {selectSizeStore}
 }
 
 const mapDispatchToProps = dispatch => {
     return {
-        addGood: (data) => dispatch(addGood(data)),
-        removeGood: (id) => dispatch(removeGood(id)),
-        toggleDisableGood: (id) => dispatch(toggleDisableGood(id))
+        filterGood: (size) => dispatch(filterGood(size))
     }
 };
 

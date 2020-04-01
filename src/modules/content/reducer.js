@@ -19,6 +19,8 @@ const contentStore = (state = contentList, action) => {
       return state.splice(state.findIndex(({id}) => id === action.id), 1);
     case 'TOGGLE_DISABLE_GOOD':
       return state.map((good) => good.id === action.id ? {...good, disabled: !good.disabled} : good);
+    case 'FILTER_BY_SIZE':
+      //return ;
     default:
       return state
   }

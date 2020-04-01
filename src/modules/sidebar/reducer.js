@@ -1,19 +1,21 @@
 import {sidebarListNew} from "./constans";
+import {selectSizeSidebar} from "./constans";
 
 
-const sidebarStore = (state = sidebarListNew, action) => {
+const selectSizeStore = (state = selectSizeSidebar, action) => {
     switch (action.type) {
         case 'ADD_GOOD':
             return [
                 ...state,
+                {
+                    id: state[state.length - 1] + 1,
+                    size: action.size
+                }
             ];
-        case 'REMOVE_GOOD':
-            return state.splice(state.findIndex(({id}) => id === action.id), 1);
-        case 'TOGGLE_DISABLE_GOOD':
-            return state.map((good) => good.id === action.id ? {...good, disabled: !good.disabled} : good);
         default:
             return state
     }
 };
 
-export default sidebarStore
+
+export default selectSizeStore

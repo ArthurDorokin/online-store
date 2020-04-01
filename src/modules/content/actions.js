@@ -12,3 +12,11 @@ export const toggleDisableGood = (id) => ({
   type: 'TOGGLE_DISABLE_GOOD',
   id
 })
+
+export const filterGood = (selectSizeStore) => {
+  console.log(selectSizeStore);
+  return {
+    type: 'FILTER_BY_SIZE',
+    selectSizeStore
+  }
+}
