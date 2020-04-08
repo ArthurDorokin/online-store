@@ -1,4 +1,3 @@
-import {sidebarListNew} from "./constans";
 import {selectSizeSidebar} from "./constans";
 
 
@@ -8,7 +7,7 @@ const selectSizeStore = (state = selectSizeSidebar, action) => {
             return [
                 ...state,
                 {
-                    id: state[state.length - 1] + 1,
+                    id: state[state.length - 1].id + 1,
                     size: action.size,
                     sizeSelect: action.sizeSelect
                 }

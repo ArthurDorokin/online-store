@@ -1,30 +1,28 @@
 import React, {Component} from 'react';
+import {connect} from "react-redux";
+import {setSearch} from "./actions";
 
 
-export default class Search extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            term: ''
-        };
-        this.onUpdateSearch = this.onUpdateSearch.bind(this);
-    }
+class Search extends Component {
+  onUpdateSearch = (event) => {
+    this.props.setSearch(event.target.value)
+  };
 
-    onUpdateSearch(e) {
-        const term = e.target.value;
-        //this.setState({term: term});
-        //this.props.onUpdateSearch(term);
-        console.log(term);
-    }
-
-    render () {
-        return (
-            <div className="search">
-                <input className="search-input"
-                       onChange={this.onUpdateSearch}
-                       type="text" placeholder="Search..."
-                />
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="search">
+        <input
+          className="search-input"
+          onChange={this.onUpdateSearch}
+          type="text" placeholder="Search..."
+        />
+      </div>
+    )
+  }
 }
+
+const mapDispatchToProps = dispatch => ({
+  setSearch: (search) => dispatch(setSearch(search)),
+});
+
+export default connect(null, mapDispatchToProps)(Search);

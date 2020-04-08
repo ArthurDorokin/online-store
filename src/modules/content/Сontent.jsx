@@ -1,32 +1,26 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {connect} from 'react-redux';
 import ContentItem from "./ContentItem";
 import './content.css';
-import content from "./reducer";
-import { addGood, removeGood, toggleDisableGood, filterGood } from './actions'
+import {addGood, filterGood, removeGood, toggleDisableGood} from './actions'
+import sortStore from "../sortPanel/reducer";
 
-class Content extends Component {
-  render() {
-    console.log(this.props.contentStore);
-
-    //console.log(this.props.contentStore.content.sort((a, b) => a.size > b.size ? 1 : -1))
-
-    return (
-      <div className="container">
-        <div className="content">
-          <div className="wrapper-product">
-            {this.props.contentStore.content.map((item) =>
-              <ContentItem key={item.id} {...item}/>
-            )};
-          </div>
-        </div>
+const Content = (props) => (
+  <div className="container">
+    <div className="content">
+      <div className="wrapper-product">
+        {props.contentStore.map((item) =>
+          <ContentItem key={item.id} {...item}/>
+        )};
       </div>
-    );
-  }
-}
+    </div>
+  </div>
+);
 
-const mapStateToProps = ({contentStore}, ownProps) => {
-  return {contentStore}
+const mapStateToProps = ({contentStore, sortStore}, ownProps) => {
+  return {
+    contentStore: contentStore.filter((good) => good.description.includes(sortStore.search))
+  }
 }
 
 const mapDispatchToProps = dispatch => {

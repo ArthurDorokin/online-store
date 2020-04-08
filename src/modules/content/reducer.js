@@ -7,7 +7,7 @@ const contentStore = (state = contentList, action) => {
       return [
         ...state,
         {
-          id: state[state.length - 1] + 1,
+          id: state[state.length - 1].id + 1,
           img: action.img,
           description: action.description,
           price: action.price,
@@ -20,7 +20,7 @@ const contentStore = (state = contentList, action) => {
     case 'TOGGLE_DISABLE_GOOD':
       return state.map((good) => good.id === action.id ? {...good, disabled: !good.disabled} : good);
     case 'FILTER_BY_SIZE':
-      //return state.sort((a, b) => a.sizeSelect > b.sizeSelect ? 1 : -1);
+      return state.sort((a, b) => a.sizeSelect - b.sizeSelect ? 1 : -1);
     default:
       return state
   }
