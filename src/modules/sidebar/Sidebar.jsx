@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
+import {connect} from "react-redux";
+import {setSize} from "./actions";
 import './sidebar.css';
-import {connect} from 'react-redux';
-import content from "./reducer";
 import {selectSizeSidebar, sidebarListNew} from './constans';
 import {SidebarTitle} from './SidebarTitle';
 import {SortFilter} from './SortFilter';
 import {SidebarLists} from './SidebarLists';
 import {SelectSize} from './SelectSize';
-import {filterGood} from "../content/actions";
 
 class Sidebar extends Component {
     render() {
@@ -29,7 +28,7 @@ class Sidebar extends Component {
                     </div>
                     <div className="selectSize">
                         <h5>- SIZES</h5>
-                        <SelectSize selectSizeSidebar={this.props.selectSizeStore} takeSize={this.props.filterGood}/>
+                        <SelectSize selectSizeSidebar={selectSizeSidebar} takeSize={this.props.setSize}/>
                     </div>
                 </div>
             </div>
@@ -37,14 +36,9 @@ class Sidebar extends Component {
     }
 };
 
-const mapStateToProps = ({selectSizeStore}, ownProps) => {
-    return {selectSizeStore}
-}
 
-const mapDispatchToProps = dispatch => {
-    return {
-        filterGood: (size) => dispatch(filterGood(size))
-    }
-};
+const mapDispatchToProps = dispatch => ({
+    setSize: (size) => dispatch(setSize(size)),
+});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Sidebar);
+export default connect(null, mapDispatchToProps)(Sidebar);

@@ -2,8 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import ContentItem from "./ContentItem";
 import './content.css';
-import {addGood, filterGood, removeGood, toggleDisableGood} from './actions'
-import sortStore from "../sortPanel/reducer";
+import {logger} from "redux-logger/src";
 
 const Content = (props) => (
   <div className="container">
@@ -17,19 +16,11 @@ const Content = (props) => (
   </div>
 );
 
-const mapStateToProps = ({contentStore, sortStore}, ownProps) => {
+const mapStateToProps = ({contentStore, sortStore, selectSizeStore}, ownProps) => {
   return {
-    contentStore: contentStore.filter((good) => good.description.includes(sortStore.search))
-  }
-}
-
-const mapDispatchToProps = dispatch => {
-  return {
-    addGood: (data) => dispatch(addGood(data)),
-    removeGood: (id) => dispatch(removeGood(id)),
-    toggleDisableGood: (id) => dispatch(toggleDisableGood(id)),
-    filterGood: (size) => dispatch(filterGood(size))
+    contentStore: contentStore.filter((good) => good.description.includes(sortStore.search)),
+    //contentStore: contentStore.filter((good) => good.size.includes(selectSizeStore.size))
   }
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Content);
+export default connect(mapStateToProps)(Content);

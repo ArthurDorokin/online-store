@@ -1,21 +1,13 @@
 import {selectSizeSidebar} from "./constans";
+import {SET_SELECT} from "./actions";
 
-
-const selectSizeStore = (state = selectSizeSidebar, action) => {
+const sortSize = (state = selectSizeSidebar, action) => {
     switch (action.type) {
-        case 'ADD_GOOD':
-            return [
-                ...state,
-                {
-                    id: state[state.length - 1].id + 1,
-                    size: action.size,
-                    sizeSelect: action.sizeSelect
-                }
-            ];
+        case SET_SELECT:
+            return {...state, size: action.size};
         default:
             return state
     }
 };
 
-
-export default selectSizeStore
+export default sortSize
