@@ -28,3 +28,6 @@ h1 {
 .outline {
     outline: none;
 }
+.container {
+    position: relative;
+}
