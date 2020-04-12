@@ -3,5 +3,156 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    width: 1060px;
 }
+.cardProduct .close {
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.cardProduct .close span{
+    position: absolute;
+    right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.cardProduct .close span:after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #000000;
+    transform: rotate(-45deg);
+}
+.cardProduct .close span:before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #000000;
+    transform: rotate(45deg);
+}
+.cardProduct .wrap {
+    display: flex;
+
+}
+.cardProduct .mainImgCardProd{
+    width: 458px;
+}
+.cardProduct .descriptionCardProd{
+    width: 560px;
+}
+.cardProduct .mainImgCardProd img{
+    width: 100%;
+}
+.cardProduct .priceProd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2eaea;
+    padding: 15px 0 20px 0;
+}
+.cardProduct .info .howMuchIsLeft,
+.cardProduct .info .cloth,
+.cardProduct .info .madeIn {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #f2eaea;
+}
+.cardProduct .info .howMuchIsLeft p,
+.cardProduct .info .cloth p,
+.cardProduct .info .madeIn p {
+    width: 250px;
+}
+.cardProduct .info .madeIn:last-child {
+    border-bottom: 1px solid #f2eaea;
+}
+.cardProduct  .wrapSelectSize {
+    display: flex;
+    align-items: center;
+}
+.cardProduct  .wrapSelectSize {
+    display: flex;
+    align-items: center;
+}
+.cardProduct  .wrapSelectSize .size-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #515356;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+.cardProduct .wrapSelectSize .size-item:hover {
+    background: #F3F3F3;
+}
+.cardProduct .descriptionCardProd .description {
+    padding: 20px 0;
+}
+.cardProduct .descriptionCardProd .selectSize {
+    padding: 20px 0;
+}
+.cardProduct .descriptionCardProd .selectSize h5{
+    padding: 0 0 5px 0;
+}
+.cardProduct .quantity button{
+    background: #33333A;
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.cardProduct .quantity .wrapQuantity {
+    display: flex;
+    align-items: center;
+}
+.cardProduct .quantity .quan {
+    display: flex;
+    align-items: center;
+    margin: 0 28px 0 0;
+}
+.cardProduct .quantity input {
+    height: 40px;
+    outline: none;
+    border: 1px solid #DEDEDE;
+    width: 75px;
+    text-align: center;
+}
+.cardProduct .quantity h5 {
+    padding: 0 0 5px 0;
+}
+.cardProduct .quantity span:nth-of-type(1) {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cardProduct .quantity span:nth-of-type(2) {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
