@@ -4,7 +4,8 @@ import './cardProduct.css';
 
 export default class CardProduct extends Component {
     state = {
-        counter: 1
+        counter: 1,
+        active: false
     };
 
     increment = () => {
@@ -12,17 +13,27 @@ export default class CardProduct extends Component {
             counter: this.state.counter + 1
         })
     };
+
     decrement = () => {
         this.setState({
             counter: Math.max(this.state.counter - 1, 1)
         })
     };
 
+    openCart = () => {
+        const open = this.state.active;
+        this.setState({
+            active: !open
+        })
+    };
 
     render() {
         return (
-            <div className="cardProduct">
-                <div className="close"><span></span></div>
+            <div className={`${"cardProduct"} ${this.state.active ? "open" : ""}`}>
+                <div className="close"
+                     onClick={this.openCart}>
+                    <span></span>
+                </div>
                 <div className="wrap">
                     <div className="mainImgCardProd">
                         <img src="/img/71epjBy+bNL._SX700_.jpg" alt=""/>
