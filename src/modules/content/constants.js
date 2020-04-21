@@ -5,6 +5,7 @@ const contentList = [
     description: 'Study Phyto Estrogens',
     price: '157.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 0',
     attrID: []
   },
   {
@@ -13,6 +14,7 @@ const contentList = [
     description: 'Pueraria Mirifica And Study Phyto Estrogens',
     price: '599.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 1',
     attrID: []
   },
   {
@@ -21,6 +23,7 @@ const contentList = [
     description: 'Fort Point Insulated Flannel',
     price: '325.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 2',
     attrID: []
   },
   {
@@ -29,6 +32,7 @@ const contentList = [
     description: 'Thermoball Eco Snow Triclimate',
     price: '740.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 3',
     attrID: []
   },
   {
@@ -37,6 +41,7 @@ const contentList = [
     description: 'hats1',
     price: '15.00$',
     size: '4',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 4',
     attrID: []
   },
   {
@@ -45,6 +50,7 @@ const contentList = [
     description: 'hats2',
     price: '23.00$',
     size: '3',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 5',
     attrID: []
   },
   {
@@ -53,6 +59,7 @@ const contentList = [
     description: 'hats3',
     price: '18.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 6',
     attrID: []
   },
   {
@@ -61,6 +68,7 @@ const contentList = [
     description: 'sunglasses1',
     price: '99.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 7',
     attrID: []
   },
   {
@@ -69,6 +77,7 @@ const contentList = [
     description: 'sunglasses2',
     price: '85.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 8',
     attrID: []
   },
   {
@@ -77,6 +86,7 @@ const contentList = [
     description: 'watches1',
     price: '300.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 9',
     attrID: []
   },
   {
@@ -85,6 +95,7 @@ const contentList = [
     description: 'watches2',
     price: '199.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 10',
     attrID: []
   },
   {
@@ -93,6 +104,7 @@ const contentList = [
     description: 'watches3',
     price: '263.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 11',
     attrID: []
   },
   {
@@ -101,6 +113,7 @@ const contentList = [
     description: 'backpacks1',
     price: '50.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 12',
     attrID: []
   },
   {
@@ -109,6 +122,7 @@ const contentList = [
     description: 'backpacks2',
     price: '63.00$',
     size: '3',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 13',
     attrID: []
   },
   {
@@ -117,6 +131,7 @@ const contentList = [
     description: 'duffel-bags1',
     price: '32.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 14',
     attrID: []
   },
   {
@@ -125,6 +140,7 @@ const contentList = [
     description: 'duffel-bags2',
     price: '15.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 15',
     attrID: []
   },
   {
@@ -133,6 +149,7 @@ const contentList = [
     description: 'messenger-bags1',
     price: '43.00$',
     size: '3',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 16',
     attrID: []
   },
   {
@@ -141,6 +158,7 @@ const contentList = [
     description: 'messenger-bags2',
     price: '32.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 17',
     attrID: []
   },
   {
@@ -149,6 +167,7 @@ const contentList = [
     description: 'coat&jackets1',
     price: '65.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 18',
     attrID: []
   },
   {
@@ -157,6 +176,7 @@ const contentList = [
     description: 'coat&jackets2',
     price: '75.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 19',
     attrID: []
   },
   {
@@ -165,6 +185,7 @@ const contentList = [
     description: 'clothing1',
     price: '55.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 20',
     attrID: []
   },
   {
@@ -173,6 +194,7 @@ const contentList = [
     description: 'clothing2',
     price: '45.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 21',
     attrID: []
   },
   {
@@ -181,6 +203,7 @@ const contentList = [
     description: 'sweatshirts1',
     price: '23.00$',
     size: '3',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 22',
     attrID: []
   },
   {
@@ -189,6 +212,7 @@ const contentList = [
     description: 'sweatshirts2',
     price: '27.00$',
     size: '3',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 23',
     attrID: []
   },
   {
@@ -197,6 +221,7 @@ const contentList = [
     description: 'boots1',
     price: '75.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 24',
     attrID: []
   },
   {
@@ -205,6 +230,7 @@ const contentList = [
     description: 'boots2',
     price: '66.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 25',
     attrID: []
   },
   {
@@ -213,6 +239,7 @@ const contentList = [
     description: 'sandals1',
     price: '15.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 26',
     attrID: []
   },
   {
@@ -221,6 +248,7 @@ const contentList = [
     description: 'sandals2',
     price: '19.00$',
     size: '2',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 27',
     attrID: []
   },
   {
@@ -229,6 +257,7 @@ const contentList = [
     description: 'sneakers1',
     price: '99.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 28',
     attrID: []
   },
   {
@@ -237,6 +266,7 @@ const contentList = [
     description: 'sneakers2',
     price: '110.00$',
     size: '1',
+    descriptionProduct: 'Inspired by the continuous length of the lunghi or sarong seen in hot climates everywhere from South Asia to the Horn of Africa and southern Arabian pen 29',
     attrID: []
   }
 ];
