@@ -17,37 +17,39 @@ class CardProduct extends Component {
 
     render() {
         return (
-            <div className={`${"cardProduct"} ${this.state.active ? "open" : ""}`}>
-                <div className="close" onClick={this.props.hideGood}>
-                    <span/>
-                </div>
-                <div className="wrap">
-                    <MainImgCardProd imgProduct={this.props.product}/>
-                    <div className="descriptionCardProd">
-                        <div className="headerProd">
-                            <CardProductItem infoProduct={this.props.product}/>
-                            <div className="selectSize">
-                                <h5>SIZES</h5>
-                                <div className="wrapSelectSize">
-                                    {selectSizeSidebar.sizes.map((item, index) =>
-                                        <div
-                                            key={item.id}
-                                            className="size-item">
-                                            {item.size}
-                                        </div>
-                                    )}
-                                </div>
-
-                            </div>
-                            <div className="quantity">
-                                <h5>QUANTITY</h5>
-                                <div className="wrapQuantity">
-                                    <div className="quan">
-                                        <span onClick={this.decrement}>-</span>
-                                        <input type="text" value={this.state.counter} onChange={this.onChangeHandle}/>
-                                        <span onClick={this.increment}>+</span>
+            <div className="background-card">
+                <div className={`${"cardProduct"} ${this.state.active ? "open" : ""}`}>
+                    <div className="close" onClick={this.props.hideGood}>
+                        <span/>
+                    </div>
+                    <div className="wrap">
+                        <MainImgCardProd imgProduct={this.props.product}/>
+                        <div className="descriptionCardProd">
+                            <div className="headerProd">
+                                <CardProductItem infoProduct={this.props.product}/>
+                                <div className="selectSize">
+                                    <h5>SIZES</h5>
+                                    <div className="wrapSelectSize">
+                                        {selectSizeSidebar.sizes.map((item, index) =>
+                                            <div
+                                                key={item.id}
+                                                className="size-item">
+                                                {item.size}
+                                            </div>
+                                        )}
                                     </div>
-                                    <button>ADD TO CART</button>
+
+                                </div>
+                                <div className="quantity">
+                                    <h5>QUANTITY</h5>
+                                    <div className="wrapQuantity">
+                                        <div className="quan">
+                                            <span onClick={this.decrement}>-</span>
+                                            <input type="text" value={this.state.counter} onChange={this.onChangeHandle}/>
+                                            <span onClick={this.increment}>+</span>
+                                        </div>
+                                        <button>ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
