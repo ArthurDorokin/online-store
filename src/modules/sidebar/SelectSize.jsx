@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react'
+import React, {useState} from 'react'
 
 export const SelectSize = ({selectSizeSidebar, takeSize}) => {
 
@@ -6,7 +6,7 @@ export const SelectSize = ({selectSizeSidebar, takeSize}) => {
 
     return (
         <div className="wrapSelectSize">
-            {selectSizeSidebar.sizes.map((item, index) =>
+            {selectSizeSidebar.sizes.map((item) =>
                 <div
                     key={item.id}
                     className={`${"size-item"} ${item.id === active ? "active" : ""}`}

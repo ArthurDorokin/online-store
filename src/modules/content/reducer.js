@@ -1,10 +1,8 @@
 import {contentList} from "./constants";
-import {SET_DESCRIPT} from "./actions";
+import {SHOW_GOOD} from "./actions";
 
-const selectProduct = (state = contentList, action) => {
+const contentStore = (state = contentList, action) => {
   switch (action.type) {
-    case SET_DESCRIPT:
-      return {...state, description: action.description};
     default:
       return state
   }
@@ -34,4 +32,4 @@ const selectProduct = (state = contentList, action) => {
 //   }
 // };
 
-export default selectProduct
+export default contentStore
