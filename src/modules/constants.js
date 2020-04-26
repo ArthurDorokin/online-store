@@ -31,7 +31,16 @@ const footerList = {
 };
 
 const sortSelectList = {
-    "Sort by": ["price", "name"]
+    "sortBy": [
+        {
+            id: 0,
+            name: 'price'
+        },
+        {
+            id: 1,
+            name: 'name'
+        }
+    ]
 };
 
 export {

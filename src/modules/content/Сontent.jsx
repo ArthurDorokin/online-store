@@ -15,9 +15,10 @@ const Content = ({contentStore}) => (
 
 const mapStateToProps = ({contentStore, sortStore, selectSizeStore}, ownProps) => {
 
-  return {
+    return {
     contentStore: contentStore.filter((good) => good.description.includes(sortStore.search)),
-    //contentStore: contentStore.filter((good) => good.size.includes(selectSizeStore.size))
+    //contentStore: contentStore.filter((good) => good.size.includes(selectSizeStore.size)),
+    //contentStore: contentStore.filter((good) => good.description.includes(sortStore.name))
   }
 };
 
