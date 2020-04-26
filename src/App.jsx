@@ -6,10 +6,11 @@ import Sidebar from './modules/sidebar';
 import Content from './modules/content';
 import Footer from './modules/footer';
 import CardProduct from "./modules/сardProduct";
+import Basket from "./modules/basket";
 import {connect} from "react-redux";
 
 
-const App = ({product}) => (
+const App = ({product, basket}) => (
     <div className="app">
         <div className="container">
             <Header/>
@@ -19,14 +20,16 @@ const App = ({product}) => (
                 <Sidebar/>
                 <Content/>
                 {product && <CardProduct product={product}/>}
+                {basket && <Basket basket={basket}/>}
             </div>
             <Footer/>
         </div>
     </div>
 );
 
-const mapStateToProps = ({cartProductStore}) => ({
+const mapStateToProps = ({cartProductStore, BasketStore}) => ({
     product: cartProductStore,
+    basket: BasketStore
 });
 
 export default connect(mapStateToProps)(App);

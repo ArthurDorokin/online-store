@@ -15,11 +15,7 @@ const headerControlList = {
         {
             img: '../img/Heart.svg',
             alt: 'heart'
-        },
-        {
-            img: '../img/order.svg',
-            alt: 'order'
-        },
+        }
     ],
 
 };

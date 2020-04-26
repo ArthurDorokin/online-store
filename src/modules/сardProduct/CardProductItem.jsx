@@ -5,7 +5,7 @@ export const CardProductItem = ({infoProduct}) => (
         <h2>{infoProduct.description}</h2>
         <div className="priceProd">
             <div className="price">{infoProduct.price}</div>
-            <div className="rating">{console.log(infoProduct)}</div>
+            <div className="rating">* * * * *</div>
         </div>
         <div className="description">
             {infoProduct.descriptionProduct}

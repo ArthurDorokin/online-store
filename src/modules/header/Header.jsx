@@ -3,9 +3,11 @@ import './header.css';
 import {headerList, headerControlList} from '../constants.js';
 import {HeaderTitle} from './HeaderTitle';
 import {HeaderBurger} from './HeaderBurger';
+import {showBasketGood} from "../basket/actions";
+import {connect} from "react-redux";
 
 
-const Header = () => (
+const Header = ({showBasketGood, good}) => (
     <div className="header">
         <div className="strip">
             <p>Free shipping for orders above USD 150</p>
@@ -30,12 +32,20 @@ const Header = () => (
                 </div>
             </div>
             <div className="control-order">
-                {headerControlList.controlOrder.map((item, index) => <img key={index} src={item.img} alt={item.alt}/>)}
+                {headerControlList.controlOrder.map((item, index) =>
+                    <img key={index} src={item.img} alt={item.alt}
+                    />)}
+                <div className="order" onClick={() => showBasketGood(good)} >
+                    <img src="../img/order.svg" alt=""/>
+                </div>
             </div>
         </div>
     </div>
 );
 
 
+const mapDispatchToProps = (dispatch) => ({
+    showBasketGood: (good) => dispatch(showBasketGood(good)),
+});
 
-export default Header
+export default connect(null, mapDispatchToProps)(Header);
